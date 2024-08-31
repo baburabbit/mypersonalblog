@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Babu Nagarajan V</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        header {
+            background-color: #007BFF;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+
+        nav {
+            background-color: #333;
+            color: white;
+            padding: 15px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        .content {
+            padding: 20px;
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+
+        .content h2 {
+            color: #007BFF;
+        }
+
+        .projects {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            margin-top: 20px;
+        }
+
+        .project {
+            background-color: white;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .project h3 {
+            margin-top: 0;
+            color: #007BFF;
+        }
+
+        .project p {
+            line-height: 1.6;
+        }
+
+        .project a {
+            display: inline-block;
+            margin-top: 10px;
+            color: #007BFF;
+            text-decoration: none;
+        }
+
+        .project a:hover {
+            text-decoration: underline;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>My Portfolio</h1>
+    </header>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+
+    <div class="content">
+        <h2>Projects</h2>
+        <div class="projects">
+            <div class="project">
+                <h3>Online Shopping in Figma</h3>
+                <p>This project aimed to enhance user interfaces and streamline online shopping processes using Figma's design capabilities. I focused on creating new design patterns to improve the overall user experience.</p>
+                <a href="./project1image.html" target="_blank">View Project</a>
+            </div>
+            <div class="project">
+                <h3>Pneumonia Prediction Using Deep Learning</h3>
+                <p>This project involved developing a deep learning model to accurately predict pneumonia cases using chest X-ray images. The model was trained to identify patterns indicative of pneumonia, helping in early diagnosis and treatment.</p>
+                <a href="./project2image.html" target="_blank">View Project</a>
+            </div>
+            <div class="project">
+                <h3>EDUWIZARD</h3>
+                <p>EDUWIZARD is an ongoing project focused on developing a smart robot designed to assist students in exam preparation by conducting tests, addressing doubts, and providing concise explanations. The project primarily targets MCQ-based exams for school students.</p>
+                <a href="./project3image.html" target="_blank">View Project</a>
+            </div>
+        </div>
+
+        <h2>Get in Touch</h2>
+        <p>If you like what you see and want to work together, <a href="contact.html">contact me</a> to discuss your project or just say hello!</p>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Babu Nagarajan V. All rights reserved.</p>
+    </footer>
+</body>
+</html>

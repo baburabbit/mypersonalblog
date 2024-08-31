@@ -1,0 +1,138 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f6f3;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1;
+}
+
+.logo h1 {
+    margin: 20px;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.nav-links {
+    position: absolute;
+    left: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #333;
+    font-size: 1rem;
+    transform: rotate(-90deg);
+}
+
+.side-links {
+    position: absolute;
+    right: 20px;
+    bottom: 50%;
+    transform: translateY(50%);
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.side-links a {
+    text-decoration: none;
+    color: #333;
+    font-size: 1rem;
+    transform: rotate(90deg);
+}
+
+.social-media {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.social-media a {
+    text-decoration: none;
+    color: #333;
+    font-size: 1rem;
+}
+
+.center-icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.center-icon img {
+    width: 100px;
+    height: 100px;
+}
+
+.center-icon p a {
+    text-decoration: none;
+    color: #007BFF;
+    margin-top: 10px;
+}
+
+.next-page {
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+
+.left-section, .right-section {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-section {
+    background-color: #000;
+    color: #fff;
+    padding: 50px;
+}
+
+.left-section h2 {
+    font-size: 3rem;
+    margin: 0;
+}
+
+.left-section p {
+    font-size: 1.2rem;
+}
+
+.right-section {
+    background-color: #f9f6f3;
+    text-align: center;
+}
+
+.right-section img {
+    width: 300px;
+    height: auto;
+}

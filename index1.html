@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles1.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>HR</h1>
+        </div>
+        <nav class="nav-links">
+            <a href="#resume">Resume</a>
+            <a href="#projects">Projects</a>
+        </nav>
+        <div class="social-media">
+            <a href="https://www.linkedin.com" target="_blank">LinkedIn</a>
+            <a href="https://github.com" target="_blank">GitHub</a>
+            <a href="https://twitter.com" target="_blank">Twitter</a>
+            <a href="https://facebook.com" target="_blank">Facebook</a>
+            <a href="https://youtube.com" target="_blank">YouTube</a>
+        </div>
+        <nav class="side-links">
+            <a href="#about">About</a>
+            <a href="#skills">My Skills</a>
+            <a href="#feats">Feats</a>
+            <a href="#contact">Say hi..</a>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Initial Home Page -->
+        <div class="center-icon" id="homePage">
+            <a href="javascript:void(0);" onclick="showNextPage()">
+                <img src="icon.png" alt="icon page">
+            </a>
+            <p><a href="javascript:void(0);" onclick="showNextPage()">click here</a></p>
+        </div>
+
+        <!-- Next Page -->
+        <div class="next-page" id="nextPage" style="display:none;">
+            <div class="left-section">
+                <h2>Hi,<br>I'm Hareesh.</h2>
+                <p>An highly skilled, self-driven Software Engineer at Zoho with the proven ability to adapt to any situation. A Programming Polyglot and Goal-driven Natural Leader.</p>
+            </div>
+            <div class="right-section">
+                <img src="photo.jpg" alt="Avatar Image">
+            </div>
+        </div>
+    </main>
+    
+    <script src="scripts1.js"></script>
+</body>
+</html>

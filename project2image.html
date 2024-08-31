@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pneumonia Prediction Using Deep Learning | Babu Nagarajan V</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        header {
+            background-color: #007BFF;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+
+        nav {
+            background-color: #333;
+            color: white;
+            padding: 15px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        .content {
+            padding: 20px;
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+
+        .content h2 {
+            color: #007BFF;
+        }
+
+        .section {
+            margin-bottom: 30px;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            margin-top: 20px;
+        }
+
+        .highlight {
+            color: #007BFF;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Pneumonia Prediction Using Deep Learning</h1>
+    </header>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+
+    <div class="content">
+        <div class="section">
+            <h2>Project Overview</h2>
+            <p>This project involved developing multiple deep learning models to accurately predict pneumonia cases using chest X-ray images. The models were trained to identify patterns indicative of pneumonia, helping in early diagnosis and treatment.</p>
+        </div>
+
+        <div class="section">
+            <h2>Key Features and Functionality</h2>
+            <ul>
+                <li><span class="highlight">Data Preprocessing:</span> Applied image enhancement techniques and data augmentation to expand the dataset.</li>
+                <li><span class="highlight">Model Development:</span> Implemented multiple algorithms: Deep Belief Network (DBN), Deep Neural Network (DNN), Self-Organizing Maps (SOM), Support Vector Machine (SVM), and Feedforward Neural Network (FNN).</li>
+                <li><span class="highlight">Performance Metrics:</span> Evaluated using accuracy, precision, recall, F1-score, and ROC-AUC curves.</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>Technologies and Tools Used</h2>
+            <p><strong>Programming Languages:</strong> Python</p>
+            <p><strong>Frameworks:</strong> TensorFlow, Keras, PyTorch</p>
+            <p><strong>Tools:</strong> Jupyter Notebook, OpenCV</p>
+            <p><strong>Libraries:</strong> NumPy, Pandas, Scikit-Learn, Matplotlib</p>
+        </div>
+
+        <div class="section">
+            <h2>Development Process</h2>
+            <p>Step-by-step approach:</p>
+            <ol>
+                <li><strong>Data Collection:</strong> Sourced chest X-ray images from public databases.</li>
+                <li><strong>Data Preparation:</strong> Cleaned and labeled data; split into training, validation, and test sets.</li>
+                <li><strong>Model Training:</strong> Built and fine-tuned DBN, DNN, SOM, SVM, and FNN models.</li>
+                <li><strong>Evaluation and Comparison:</strong> Compared model performance using key metrics.</li>
+            </ol>
+        </div>
+
+        <div class="section">
+            <h2>Model Performance Comparison</h2>
+            <p>The following table summarizes the accuracy achieved by each model:</p>
+            <ul>
+                <li><span class="highlight">Deep Belief Network (DBN):</span> 91.18%</li>
+                <li><span class="highlight">Deep Neural Network (DNN):</span> 83%</li>
+                <li><span class="highlight">Self-Organizing Maps (SOM):</span> 77%</li>
+                <li><span class="highlight">Support Vector Machine (SVM):</span> 88%</li>
+                <li><span class="highlight">Feedforward Neural Network (FNN):</span> 81%</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>Visuals and Demonstrations</h2>
+            <p>Below are some visualizations and comparisons between the models:</p>
+            <ul>
+                <li><a href="photo1.png" target="_blank">Model architecture comparison</a></li>
+                <li><a href="photo2.png" target="_blank">X-ray</a></li>
+                <li><a href="DBN VS FNN.png" target="_blank">DBN VS FNN result Table </a></li>
+                <li><a href="DBN VS SVM.png" target="_blank">DBN VS SVM result Table </a></li>
+                <li><a href="DBN VS SOM.png" target="_blank">DBN VS SOM result Table</a></li>
+                <li><a href="DBN VS DNN.png" target="_blank">DBN VS DNN result Table</a></li>
+                <li><a href="DBN VS DNN SPSS.png" target="_blank">DBN VS DNN result using SPSS software</a></li>
+                <li><a href="DBN VS FNN SPSS.png" target="_blank">DBN VS FNN result using SPSS software</a></li>
+                <li><a href="DBN VS SOM SPSS.png" target="_blank">DBN VS SOM result using SPSS software</a></li>
+                <li><a href="DBN VS SVM SPSS.png" target="_blank">DBN VS SVM result using SPSS software</a></li>
+                <li><a href="roc-curve.png" target="_blank">ROC curve comparing model performance</a></li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>Challenges and Learnings</h2>
+            <p>Faced challenges with data imbalance, overfitting, and computational efficiency, which were tackled using various techniques such as SMOTE, dropout layers, and GPU acceleration.</p>
+        </div>
+
+        <div class="section">
+            <h2>Project Outcomes and Impact</h2>
+            <p>The DBN model achieved the highest accuracy of 91.18%, outperforming other models. These results suggest the DBN model's potential for reliable early pneumonia detection.</p>
+        </div>
+
+        <div class="section">
+            <h2>Next Steps or Future Improvements</h2>
+            <p>Plans include integrating the model into real-time diagnostic tools and exploring other deep learning models for further improvement.</p>
+        </div>
+
+        <div class="section">
+            <h2>Contact</h2>
+            <p>If you have any questions or would like to collaborate, please feel free to <a href="contact.html">contact me</a>.</p>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Babu Nagarajan V. All rights reserved.</p>
+    </footer>
+</body>
+</html>
